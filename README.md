@@ -1,1 +1,1 @@
-# ahj__hw_9.2
+[![Build status](https://ci.appveyor.com/api/projects/status/icox57q633qv6nep/branch/master?svg=true)](https://ci.appveyor.com/project/Vasya24/ahj-hw-9-2/branch/master)

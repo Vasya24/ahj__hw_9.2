@@ -1,0 +1,6 @@
+version: 1.0.{build}
+image: Ubuntu
+environment:
+  GHT: de1ec221a764b1b4c51fa70776aea616f86a28c8
+build:
+  verbosity: minimal
