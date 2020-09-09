@@ -2,3 +2,54 @@ body {
     background: #eee;
   }
 
+#dot {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  top: 500px;
+  left: 500px;
+  box-shadow: -1px 0px 17px 0px rgba(50, 50, 50, 1);
+  transition: opacity 1s, width 100ms, height 100ms linear 0s;
+}
+
+#dot:hover {
+  width: 120px;
+  height: 120px;
+}
+
+#callback_header {
+  font-size: larger;
+  font-weight: bold;
+}
+
+#btn {
+  width: 100%
+}
+
+#close {
+  position: relative;
+  left: 100px;
+  cursor: pointer;
+}
+
+#feedback {
+  position: relative;
+  top: 450px;
+  left: 450px;
+  background-color: antiquewhite;
+  width: 300px;
+  padding: 1%;
+  border: 1px solid black;
+  border-radius: 10%;
+  opacity: 0;
+  transition: opacity 1s linear 0s;
+}
+
+#text {
+  width: 96%;
+  height: 200px;
+  resize: none;
+}
